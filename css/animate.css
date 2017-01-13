@@ -1,0 +1,65 @@
+@charset "UTF-8";
+.animated {
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes zoomOutRight {
+  0% {
+    left: 0px;
+  }
+  100% {
+    -webkit-transform: scale3d(.75, .75, .75);
+    transform: scale3d(.75, .75, .75);
+    left: 230px;
+  }
+}
+
+@keyframes zoomOutRight {
+  0% {
+    left: 0px;
+  }
+  100% {
+    -webkit-transform: scale3d(.75, .75, .75);
+    transform: scale3d(.75, .75, .75);
+    left: 230px;
+  }
+}
+
+.zoomOutRight {
+  -webkit-animation-name: zoomOutRight;
+  animation-name: zoomOutRight;
+}
+
+@-webkit-keyframes zoomInLeft {
+  0% {
+    -webkit-transform: scale3d(.75, .75, .75);
+    transform: scale3d(.75, .75, .75);
+    left: 230px;
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    left: 0px;
+  }
+}
+
+@keyframes zoomInLeft {
+  0% {
+    -webkit-transform: scale3d(.75, .75, .75);
+    transform: scale3d(.75, .75, .75);
+    left: 230px;
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    left: 0px;
+  }
+}
+
+.zoomInLeft {
+  -webkit-animation-name: zoomInLeft;
+  animation-name: zoomInLeft;
+}

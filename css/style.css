@@ -1,0 +1,362 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*----------------------------------------------------*/
+
+body {
+  background-color: #2f2f36;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/* MENU */
+
+
+/*----------------------------------------------------*/
+
+#menu {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+
+/*----------------------------------------------------*/
+
+#user {
+  margin-top: 119px;
+  margin-bottom: 15px;
+}
+
+.img_avatar {
+  margin-left: 23.5px;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.Username-Label {
+  margin-top: 16.5px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.icn_location {
+  width: 8px;
+  height: 8px;
+  object-fit: contain;
+}
+
+.User-Location-Label {
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+}
+
+
+/*----------------------------------------------------*/
+
+.menu-item {
+  margin-top: 50px;
+}
+
+.icn-item {
+  margin-right: 12px;
+  width: 15.1px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.Item-Label {
+  width: 145px;
+  margin-left: 42px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.Background {
+  float: right;
+  margin-top: 3px;
+  width: 34px;
+  height: 17px;
+  border-radius: 20px;
+  background-color: #4aa0d5;
+}
+
+.layer {
+  margin-top: 3px;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+/*----------------------------------------------------*/
+
+
+/* ARTICLES */
+
+
+/*----------------------------------------------------*/
+
+#articles {
+  background: url("../img/img-cover-bg.png");
+  height: 667px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+
+/*----------------------------------------------------*/
+
+#header {
+  margin-top: 20px;
+}
+
+.icn_burger_menu {
+  margin-top: 12px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.icn_search {
+  margin-top: 12px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.Automotive-Articles {
+  margin-top: 14px;
+  height: 21px;
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+/*----------------------------------------------------*/
+
+.Overlay {
+  position: fixed;
+  top: 269px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  /*opacity: 0.8;*/
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #252424);
+}
+
+
+/*----------------------------------------------------*/
+
+#body {
+  margin-top: 210px;
+  padding-left: 5px;
+  height: 60%;
+}
+
+
+/*----------------------------------------------------*/
+
+#author {
+  margin-top: 132px;
+}
+
+#author .col-xs-10 {
+  padding-left: 5px;
+}
+
+.img_author_avatar {
+  width: 42px;
+  height: 42px;
+  -webkit-border-radius: 21px;
+  border-radius: 21px;
+  object-fit: contain;
+}
+
+.Author-Label {
+  margin-top: 6.5px;
+  width: 89px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.Time-Stap-Label {
+  width: 107px;
+  height: 12px;
+  font-family: Lato;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #ffffff;
+}
+
+
+/*----------------------------------------------------*/
+
+#title {
+  margin-top: 12px;
+}
+
+.Title-Label {
+  line-height: 41px;
+  width: 325px;
+  height: 82px;
+  font-family: Lato;
+  font-size: 34px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  color: #ffffff;
+}
+
+.Sub-Title-Label {
+  margin-top: 4px;
+  width: 325px;
+  height: 18px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #ffffff;
+}
+
+
+/*----------------------------------------------------*/
+
+#tag {
+  margin-top: 25px;
+}
+
+#tag .col-xs-11 {
+  margin-top: 2px;
+  padding-left: 2px;
+}
+
+.Tag-Color {
+  width: 11px;
+  height: 11px;
+  -webkit-border-radius: 5.5px;
+  border-radius: 5.5px;
+  background-color: #d47e8e;
+}
+
+.Tag-Label {
+  width: 28px;
+  height: 12px;
+  font-family: Lato;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+
+/*----------------------------------------------------*/
+
+#selector {
+  margin-top: 44px;
+}
+
+#selector .col-xs-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.Active-Dot {
+  width: 5px;
+  height: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  -webkit-border-radius: 2.5px;
+  border-radius: 2.5px;
+  background-color: #ffffff;
+}
+
+.Dot {
+  width: 5px;
+  height: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  -webkit-border-radius: 2.5px;
+  border-radius: 2.5px;
+  opacity: 0.39;
+  background-color: #ffffff;
+}
