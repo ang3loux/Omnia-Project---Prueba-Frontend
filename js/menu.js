@@ -1,16 +1,30 @@
-/**
- * @desc Evento que abre o cierra el menu. Se ejecuta al
- * presionar click en el icono de menu de hamburguesa.
- * @param none - none
- * @return none - none
- */
 $(document).ready(function() {
-  $("#menu-btn").on("click", function(e) {
+  /**
+   * @desc Evento que abre o cierra el menu. Se ejecuta al
+   * hacer click en el icono de menu de hamburguesa.
+   * @param none - none
+   * @return none - none
+   */
+  $(".show-menu").on("click", function(e) {
     e.preventDefault();
     var distance = $('#articles').css('left');
     if (distance == "auto" || distance == "0px") {
       openMenu();
     } else {
+      closeMenu();
+    }
+  });
+  /**
+   * @desc Evento que cierra el menu. Se ejecuta al
+   * hacer click en cualquier parte del contenido
+   * cuando el menu está abierto.
+   * @param none - none
+   * @return none - none
+   */
+  $(".hide-menu").on("click", function(e) {
+    e.preventDefault();
+    var distance = $('#articles').css('left');
+    if (distance != "auto" || distance != "0px") {
       closeMenu();
     }
   });

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .animated {
-  -webkit-animation-duration: 1.3s;
-  animation-duration: 1.3s;
+  -webkit-animation-duration: 350ms;
+  animation-duration: 350ms;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -9,6 +9,11 @@
 @-webkit-keyframes zoomOutRight {
   0% {
     left: 0px;
+  }
+  70% {
+    -webkit-transform: scale3d(.75, .75, .75);
+    transform: scale3d(.75, .75, .75);
+    left: 237px;
   }
   100% {
     -webkit-transform: scale3d(.75, .75, .75);
@@ -20,6 +25,11 @@
 @keyframes zoomOutRight {
   0% {
     left: 0px;
+  }
+  70% {
+    -webkit-transform: scale3d(.75, .75, .75);
+    transform: scale3d(.75, .75, .75);
+    left: 237px;
   }
   100% {
     -webkit-transform: scale3d(.75, .75, .75);
@@ -39,6 +49,11 @@
     transform: scale3d(.75, .75, .75);
     left: 230px;
   }
+  70% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    left: -7px;
+  }
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
@@ -51,6 +66,11 @@
     -webkit-transform: scale3d(.75, .75, .75);
     transform: scale3d(.75, .75, .75);
     left: 230px;
+  }
+  70% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    left: -7px;
   }
   100% {
     -webkit-transform: scale3d(1, 1, 1);
